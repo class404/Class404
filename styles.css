@@ -96,7 +96,10 @@ p{
     animation: coloring 2.5s linear infinite alternate;
 
 }
-
+span > a.gradiant {
+    text-decoration: underline;
+    text-decoration-color: #5a9bee;
+}
 @keyframes coloring {
   0% {
     background-position: 0% 50%;
@@ -209,8 +212,8 @@ a {
   width:8.2%;
 }
 
-#css{
-  margin: 0% 2.5% 0% 21%;
+#cpp{
+  margin: 0% 2% 0% 13%;
 }
 .icon-container{
   padding-top: 1rem; margin-left: 20rem;
